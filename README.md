@@ -1,7 +1,5 @@
 # images_cycle
 
-This is a program I run on a Raspberry Pi to test image manipulation.
-
 TO DO:
 
 add another list of images 
