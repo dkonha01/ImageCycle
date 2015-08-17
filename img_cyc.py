@@ -8,6 +8,8 @@ print __doc__
 
 #Settings
 my_images_path = "/home/pi" #put your image path here if you want to override current directory
+#my_images_path_A = "/home/pi/A" 
+#my_images_path_B= "/home/pi/B" 
 extension = "*.jpg"
 
 #accel = adxl345.ADXL345()
