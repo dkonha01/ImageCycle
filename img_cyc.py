@@ -21,11 +21,12 @@ else:
   path = my_images_path
 
 imgs = list() #load up an image list
-directory = os.path.join(path, extension)
+directory = os.path.join(path, extension) 
+# glob does pathname pattern extension
 files = glob.glob(directory)
 
 
-
+# try/except for error handling
 while True:
   try:
     for file in files:
@@ -42,6 +43,7 @@ while True:
         newer_img = mirror.resize(17,17)
         disp.writeFrame(newer_img)
         time.sleep(1)
+        # sleep is in seconds
         quads = new_img.split(2,2)
         for r in quads:
             for c in r:
